@@ -137,8 +137,7 @@ USE_I18N = True
 
 USE_TZ = True
 
-# MEDIA_URL = "/media/"
-# MEDIA_ROOT = BASE_DIR / "media"
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
@@ -151,7 +150,7 @@ import cloudinary
 cloudinary.config(
     cloud_name="do00itjha",
     api_key="779438549581618",
-    api_secret="**********"
+    api_secret="2Bxso0OZpEvW_FDy31ZStIj7rIE"
 )
 
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
