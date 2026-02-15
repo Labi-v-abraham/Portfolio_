@@ -106,7 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 CORS_ALLOW_ALL_ORIGIN = True
 
 CORS_ALLOWED_ORIGINS = [
-    "https://your-vercel-app.vercel.app",
+    "https://Labi-V-Abraham.vercel.app",
 ]
 
 # Internationalization
