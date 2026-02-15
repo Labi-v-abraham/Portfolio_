@@ -18,7 +18,7 @@ export function Contact() {
   e.preventDefault();
 
   const response = await fetch(
-    "http://127.0.0.1:8000/api/contact/",
+    "https://portfolio-backend-149n.onrender.com/api/contact/",
     {
       method: "POST",
       headers: {

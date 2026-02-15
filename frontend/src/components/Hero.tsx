@@ -14,7 +14,7 @@ export function Hero() {
 
   const [profileImage, setProfileImage] = useState<string>("");
   useEffect(() => {
-  fetch("http://127.0.0.1:8000/api/profile-image/")
+  fetch("https://portfolio-backend-149n.onrender.com/api/profile-image/")
     .then(res => res.json())
     .then(data => {
       if (data.length > 0) {

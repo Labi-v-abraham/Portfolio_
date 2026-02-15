@@ -22,7 +22,7 @@ export function Projects() {
   const [projects, setProjects] = useState<Projects[]>([]);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/api/projects/")
+    fetch("https://portfolio-backend-149n.onrender.com/api/projects/")
       .then(res => res.json())
       .then(data => setProjects(data))
       .catch(err => console.error(err));
