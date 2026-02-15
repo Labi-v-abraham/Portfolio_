@@ -88,13 +88,7 @@ DATABASES = {
 }
 
 
-cloudinary.config(
-    cloud_name="do00itjha",
-    api_key="779438549581618",
-    api_secret="**********"
-)
 
-DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 # Password validation
 # https://docs.djangoproject.com/en/6.0/ref/settings/#auth-password-validators
@@ -117,7 +111,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 
 CORS_ALLOWED_ORIGINS = [
-    "https://Labi-V-Abraham.vercel.app",
+    "https://labi-V-Abraham.vercel.app",
 ]
 
 # Internationalization
@@ -152,3 +146,10 @@ STATIC_ROOT = BASE_DIR / "staticfiles"
 
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
+cloudinary.config(
+    cloud_name="do00itjha",
+    api_key="779438549581618",
+    api_secret="**********"
+)
+
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
