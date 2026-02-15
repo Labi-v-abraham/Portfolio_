@@ -1,0 +1,41 @@
+.navbar {
+  background: #111827;
+  padding: 14px 0;
+  transition: 0.3s;
+
+  .navbar-brand {
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+    &:hover {
+      color: #0d6efd;
+    }
+  }
+
+  .nav-link {
+    color: white;
+    margin-left: 18px;
+    position: relative;
+    transition: 0.3s;
+
+    &:hover {
+      color: #0d6efd;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 2px;
+      background: #0d6efd;
+      left: 0;
+      bottom: -4px;
+      transition: 0.3s;
+    }
+
+    &:hover::after {
+      width: 100%;
+    }
+  }
+}
