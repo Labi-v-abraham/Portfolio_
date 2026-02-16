@@ -1,7 +1,7 @@
 import { Github, Linkedin, Mail, ArrowDown, Instagram, MessageCircle } from "lucide-react";
 import { motion } from "framer-motion";
 import { ImageWithFallback } from "./failImage/ImageWithFallback";
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 
 
 export function Hero() {
@@ -12,16 +12,16 @@ export function Hero() {
     }
   };
 
-  const [profileImage, setProfileImage] = useState<string>("");
-  useEffect(() => {
-  fetch("https://portfolio-backend-149n.onrender.com/api/profile-image/")
-    .then(res => res.json())
-    .then(data => {
-      if (data.length > 0) {
-        setProfileImage(data[0].image);
-      }
-    });
-}, []);
+//   const [profileImage, setProfileImage] = useState<string>("");
+//   useEffect(() => {
+//   fetch("https://portfolio-backend-149n.onrender.com/api/profile-image/")
+//     .then(res => res.json())
+//     .then(data => {
+//       if (data.length > 0) {
+//         setProfileImage(data[0].image);
+//       }
+//     });
+// }, []);
 
 
   return (
@@ -158,7 +158,7 @@ export function Hero() {
           >
             <div className="aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-blue-100 to-purple-100 dark:from-blue-900/30 dark:to-purple-900/30 shadow-2xl">
               <ImageWithFallback
-                src={profileImage}
+                src="/DSC01774.jpg"
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
