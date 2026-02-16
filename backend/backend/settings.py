@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/6.0/ref/settings/
 """
 
 from pathlib import Path
+import cloudinary_storage
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -147,10 +148,17 @@ STATIC_ROOT = BASE_DIR / "staticfiles"
 
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 import cloudinary
-cloudinary.config(
-    cloud_name="do00itjha",
-    api_key="779438549581618",
-    api_secret="2Bxso0OZpEvW_FDy31ZStIj7rIE"
-)
-
+CLOUDINARY_STORAGE={
+    'CLOUD_NAME':'do00itjha',
+    'API_KEY':'779438549581618',
+    'API_SECRET':'2Bxso0OZpEvW_FDy31ZStIj7rIE'
+}
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+
+# cloudinary.config(
+#     cloud_name="do00itjha",
+#     api_key="779438549581618",
+#     api_secret="2Bxso0OZpEvW_FDy31ZStIj7rIE"
+# )
+
+# DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
