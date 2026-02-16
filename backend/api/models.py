@@ -13,7 +13,7 @@ class Projects(models.Model):
     
 
 class ProfileImage(models.Model):
-    image = models.ImageField(upload_to="profile/")
+    image = models.ImageField(upload_to="")
 
     def __str__(self):
         return "Profile Image"
