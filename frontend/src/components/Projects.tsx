@@ -37,7 +37,7 @@ export function Projects() {
         "A college fest management platform where students can explore events, view schedules, and register online.",
       image: "/images/macfiesta.png",
       git: "https://github.com/yourusername/macfiesta",
-      link: "https://macfiesta.com",
+      link: "https://macfiesta.macfast.org/",
       tag: ["React", "Django", "MySQL"],
     },
 
@@ -58,7 +58,7 @@ export function Projects() {
       description:
         "A full-stack college communication platform where students and faculty can share academic materials, announcements, and collaborate efficiently.",
       image: "/images/connect.jpg",
-      git: "https://github.com/yourusername/connect-campus",
+      git: "https://github.com/Labi-v-abraham/Connect-Campus.git",
       link: null,
       tag: ["React", "Django", "REST API", "PostgreSQL"],
     },
@@ -82,7 +82,7 @@ export function Projects() {
       description:
         "A travel booking platform where users can search destinations, book hotels and flights, and manage travel plans.",
       image: "/images/tour.png",
-      git: "https://github.com/yourusername/tourtrackr",
+      git: "https://github.com/Labi-v-abraham/TourTrackr_.git",
       link: null,
       tag: ["Django",  "Python","HTML", "CSS"],
     },
@@ -92,7 +92,7 @@ export function Projects() {
       description:
         "A Mens ware sell site focused on oversize t-shirt, shoes and shirts.",
       image: "/images/lost.png",
-      git: "https://github.com/yourusername/tourtrackr",
+      git: "https://github.com/Labi-v-abraham/LostandFound.git",
       link: null,
       tag: ["Django", "Python","HTML", "CSS"],
     },
