@@ -127,8 +127,10 @@ export function Skills() {
           <p className="text-gray-600 dark:text-gray-400 mb-4 font-semibold">Also experienced with:</p>
           <div className="flex flex-wrap justify-center gap-3">
             {[
+              "Wordpress",
               "JWT",
               "Canvas",
+              "Elementor",
               "Redux",
               "Angular",
               "AWS",

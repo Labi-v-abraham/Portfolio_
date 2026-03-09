@@ -93,7 +93,7 @@ export function Resume() {
             A comprehensive overview of my professional journey, education, and accomplishments.
           </p>
           <motion.a
-            href="/resume.pdf"
+            href="/Resume_.pdf"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}

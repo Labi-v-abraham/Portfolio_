@@ -158,7 +158,7 @@ export function Hero() {
           >
             <div className="aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-blue-100 to-purple-100 dark:from-blue-900/30 dark:to-purple-900/30 shadow-2xl">
               <ImageWithFallback
-                src="/DSC01774.jpg"
+                src="/images/DSC01774.JPG"
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
